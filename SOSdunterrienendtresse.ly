@@ -1,5 +1,9 @@
 \version "2.18.2"
 
+\paper {
+  system-system-spacing.basic-distance = #20 % espace entre les portée
+}
+
 global = {
   \key c \major
   \time 4/4
@@ -52,14 +56,14 @@ verseOne = \lyricmode {
 Pour -- quoi je vis, __ pour -- quoi je meurs __
 Pour -- quoi je ris, pour -- quoi je pleure __
 Voi -- ci le S. O. S. __
-D'un ter -- rien en dé -- tresse __
+D'un ter -- rien en dÃ© -- tresse __
 %%%%%%%%%--------------------- refain 1 et 3 mesure 7
 
 \set stanza = "   1.3."
 J'ai ja -- mais eu __ les pieds sur terre __
-J'aim' -- rais mieux être un oi -- seau
+J'aim' -- rais mieux Ãªtre un oi -- seau
 Je suis mal dans ma peau
-Je voudrais voir le monde à l'envers
+Je voudrais voir le monde Ã  l'envers
 }
 verseTwo = \lyricmode {
   \set stanza = "2."
@@ -77,16 +81,16 @@ Pour -- quoi __ je ris, __ je __ chante __
 Voi -- ci le S. O. S. __
 \set stanza = "   1.3."
 J'ai ja  mais eu __ les pieds sur terre __
-J'aim' -- rais mieux être un oi -- seau
+J'aim' -- rais mieux Ãªtre un oi -- seau
 Je suis mal dans ma peau
-Je voudrais voir le monde à l'envers
+Je voudrais voir le monde Ã  l'envers
 }
 
 \score {
     \new ChoirStaff <<
       \new Staff \with {
         midiInstrument = "acoustic grand"
-        instrumentName = \markup \left-column \fontsize#-2 { "Ténor I" "Ténor II" }
+        instrumentName = \markup \left-column \fontsize#-2 { "TÃ©nor I" "TÃ©nor II" }
         shortInstrumentName = \markup \left-column \fontsize#-2 { "T1" "T2" }
       } <<
         \new Voice = "voiceTenorI" { \voiceOne \voiceTenorI }
