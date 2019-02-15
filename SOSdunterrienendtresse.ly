@@ -41,7 +41,6 @@ theChords = \chordmode {
 
 voiceTenorI = \relative c' {
   \global
-  \printAllMesure
 %{ 1 %}   r4 e'16 d c d~d4 d16 c b c~
           c4 r4 r2
           r4 e16 d c d~d4 c16 b a b~
