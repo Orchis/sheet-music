@@ -1,11 +1,10 @@
-\version "2.19.82"
 
 tranpostion = c % f origine
 tonaliteOriginale = c
 tonalite = "Do"
 
 \paper {
-  system-system-spacing.basic-distance = #20 % espace entre les portée
+  system-system-spacing.basic-distance = #20 % espace entre les portÃ©e
 }
 #(set-default-paper-size "a4")
 #(set-global-staff-size 20)
@@ -87,21 +86,21 @@ verseOne = \lyricmode {
 Pour -- quoi je vis, __ pour -- quoi je meurs __
 Pour -- quoi je ris, pour -- quoi je pleure __
 Voi -- ci le S. O. S. __
-D'un ter -- rien en dé -- tresse __
+D'un ter -- rien en dÃ© -- tresse __
 %%%%%%%%%--------------------- refain 1 et 3 mesure 7
 
 \set stanza = "   1.3."
 J'ai ja -- mais eu __ les pieds sur terre __
-J'aim' -- rais mieux être un oi -- seau
+J'aim' -- rais mieux Ãªtre un oi -- seau
 Je suis mal dans ma peau
-Je voudrais voir le monde à l'envers
+Je voudrais voir le monde Ã  l'envers
 %%%%%%%%%--------------------- couplet 1 mesure 12
-Si jamais c'était plus beau
+Si jamais c'Ã©tait plus beau
 Plus beau vu d'en haut, vu d'en haut
 oh__ d'en haut__ %%%%%%%%%%%%%%%%           ?????
 J'ai toujours confondu la vie
-Avec les bandes dessinées
-J'ai comme des envies de métamorphose
+Avec les bandes dessinÃ©es
+J'ai comme des envies de mÃ©tamorphose
 Je sens quelque chose
 Qui m'attire
 Qui m'attire
@@ -109,12 +108,12 @@ Qui m'attire vers le haut
 
 %%%%%%%%%--------------------- refrain 2 mesure 7
 Au grand loto de l'univers
-J'ai pas tiré le bon numéro
+J'ai pas tirÃ© le bon numÃ©ro
 Je suis mal dans ma peau
 
 %%%%%%%%%--------------------- couplet 2 mesure 12
-J'ai pas envie d'être un robot
-Métro, boulot, dodo
+J'ai pas envie d'Ãªtre un robot
+MÃ©tro, boulot, dodo
 oh__ d'en haut__ %%%%%%%%%%%%%%%%           ?????
 %%%%%%%%%--------------------- Couplet 2 mesure 1
 Pourquoi je vis, pourquoi je meurs
@@ -124,11 +123,11 @@ Venues d'un autre monde
 
 %%%%%%%%%--------------------- refrain 1 mesure 7
 J'ai jamais eu les pieds sur terre
-J'aimerais mieux être un oiseau
+J'aimerais mieux Ãªtre un oiseau
 Je suis mal dans ma peau
-Je voudrais voir le monde à l'envers
+Je voudrais voir le monde Ã  l'envers
 %%%%%%%%%--------------------- couplet 2 mesure 12
-J'aimerais mieux être un oiseau
+J'aimerais mieux Ãªtre un oiseau
 Dodo l'enfant do
 }
 verseTwo = \lyricmode {
@@ -147,9 +146,9 @@ Pour -- quoi __ je ris, __ je __ chante __
 Voi -- ci le S. O. S. __
 \set stanza = "   1.3."
 J'ai ja  mais eu __ les pieds sur terre __
-J'aim' -- rais mieux être un oi -- seau
+J'aim' -- rais mieux Ãªtre un oi -- seau
 Je suis mal dans ma peau
-Je voudrais voir le monde à l'envers
+Je voudrais voir le monde Ã  l'envers
 }
 
 \score {
@@ -160,7 +159,7 @@ Je voudrais voir le monde à l'envers
       }
       \new Staff \with {
         midiInstrument = "acoustic grand"
-        instrumentName = \markup \left-column \fontsize#-2 { "Ténor I" "Ténor II" }
+        instrumentName = \markup \left-column \fontsize#-2 { "TÃ©nor I" "TÃ©nor II" }
         shortInstrumentName = \markup \left-column \fontsize#-2 { "T1" "T2" }
       } <<
         \new Voice = "voiceTenorI" { \voiceOne \voiceTenorI }
